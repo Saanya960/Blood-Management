@@ -1,0 +1,95 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  .nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  position: fixed;
+  top:0;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 19px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav li a:hover {
+  background-color: #111111;
+}
+h2 {
+    color:#F63049;
+    margin: 20px 400px 0 10px; }
+
+h1 {
+    position:relative;
+    top:100px;
+}
+
+.bottom {
+  background-color: #111111;
+  position:sticky;
+  margin:0;
+  padding:20px;
+  bottom:0px;
+  color:aliceblue;
+  height:70px;
+  width:1500px;
+}
+
+#name+label {
+    position: relative;
+    left:130px;
+}
+
+#mob {
+    position:relative;
+    left:140px;
+}
+#mob+label {
+    position: relative;
+    left:400px;
+}
+#email {
+    position: relative;
+    left:410px;
+}
+#gen+label {
+     position: relative;
+    left:450px;
+}
+#blood-grp {
+    position:relative;
+    left:460px;
+}
+#gen {
+    position:relative;
+    left:250px;
+}
+#age+label {
+    position:relative;
+    left:240px;
+}
+select {
+    width:170px;
+}
+button {
+    background-color: #D02752;
+    border-radius: 8px;
+    border:none;
+    color:aliceblue;
+    height:30px;
+    width:120px;
+}
+button:hover {box-shadow:0 8px 16px 0 rgba(0,0,0,0.6)};
+
